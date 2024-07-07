@@ -21,28 +21,22 @@ for data_index = 1:length(dataset)
             NoiseG = true; gen_sig = 'sig = 10/255;';
             NoiseI = false;
             NoiseS = false;
-            NoiseD = false;
         elseif casenum == 2
             NoiseG = true; gen_sig = 'sig = (rand(1)*25+5)/255;';
             NoiseI = false;
             NoiseS = false;
-            NoiseD = false;
         elseif casenum == 3
             NoiseG = true; gen_sig = 'sig = (rand(1)*25+5)/255;';
             NoiseI = true; ipb = randperm(B); ipb = ipb(1:ceil(0.333*B)); gen_p = 'p = rand(1)*0.25+0.05;';
             NoiseS = false;
-            NoiseD = false;
         elseif casenum == 4
             NoiseG = true; gen_sig = 'sig = (rand(1)*25+5)/255;';
             NoiseI = false;
             NoiseS = true; stb = randperm(B); stb = stb(1:ceil(0.333*B)); gen_s = 's = rand(1)*0.25+0.05;';
-            NoiseD = false;
         elseif casenum == 5
             NoiseG = true; gen_sig = 'sig = (rand(1)*25+5)/255;';
             NoiseI = true; ipb = randperm(B); ipb = ipb(1:ceil(0.333*B)); gen_p = 'p = rand(1)*0.25+0.05;';
             NoiseS = true; stb = randperm(B); stb = stb(1:ceil(0.333*B)); gen_s = 's = rand(1)*0.25+0.05;';
-            NoiseD = false; ddb = randperm(B); ddb = ddb(1:ceil(0.333*B)); gen_d = 'd = rand(1)*0.25+0.05;';
-
         end
 
         for i=1:B
