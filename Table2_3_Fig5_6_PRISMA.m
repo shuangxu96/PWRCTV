@@ -52,19 +52,6 @@ for data_index = 1:length(dataset)
                 Nhsi(:,:,i) = imnoise(Nhsi(:,:,i),'salt & pepper', p);
             end
 
-            % Deadlines
-            if NoiseD && ismember(i,ddb)
-                eval(gen_d)
-                linenum   = ceil(N*d); % the number of deadlines
-                linewidth = 1*ones(1,linenum); % the width of each deadline
-                lineloc   = randi(N-max(linewidth),1,linenum); % the location of each deadline
-                lineindex = [];
-                for k=1:linenum
-                    lineindex = [lineindex, lineloc(k):lineloc(k)+linewidth(k)];
-                end
-                Nhsi(:,lineindex,i) = 0;
-            end
-
             % Stripes
             if NoiseS && ismember(i,stb)
                 eval(gen_s)
