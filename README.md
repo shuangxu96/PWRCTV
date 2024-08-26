@@ -30,7 +30,7 @@ where $\mathscr{E}\left( \mathcal{X},\mathbf{P} \right)$ characterizes the exter
 * `Fig7_8_XG3.m`: Functions for evaluating the denoising performance on Beijing and Yulin datasets to reproduce Figs. 7-8 of the manuscript.
 * `Table_4_step1.m`: Functions for denoising on the Urban dataset.
 * `Table_4_step2.py`: Functions for classification on the denoised Urban dataset.
-* `datasets/`: Folder containing the synthetic and real-world datasets used in the experiments.
+* `datasets/`: Dataset download links.
   
 ## Usage
 1. **Data Download**: Download the datasets from the provided links and put them in the  `data/` folder.
