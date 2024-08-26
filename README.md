@@ -12,29 +12,30 @@ $$\min_{\mathcal{X}}\, \mathscr{L}\left( \mathcal{X},\mathcal{Y} \right)  + \lam
 
 where $\mathscr{E}\left( \mathcal{X},\mathbf{P} \right)$ characterizes the external prior knowledge, $\mathbf{P}\in\mathbb{R}^{M\times N}$ is the PAN image, and $\tau$ controls the regularization strength. Nevertheless, designing an appropriate regularization term to effectively utilize the complementary information from PAN images remains a significant challenge.
 
-![Pan-denoising.](pandenoising.svg)
+
+<div align=center><img  src="pandenoising.svg"/></div>
 
 ## Contents
-* `main.m`: The main function for running the denoising experiment.
 * `PWRCTV.m`: The implementation of the PWRCTV denoising algorithm.
-* `data_generator.m`: Functions for generating synthetic noisy hyperspectral images.
-* `evaluate.m`: Functions for evaluating the denoising performance using various metrics.
+* `Table2_3_Fig5_6_PRISMA.m`: Functions for evaluating the denoising performance on Florence and Milan datasets to reproduce Tables 2-3 and Figs. 5-6 of the manuscript.
+* `Fig7_8_XG3.m`: Functions for evaluating the denoising performance on Beijing and Yulin datasets to reproduce Figs. 7-8 of the manuscript.
+* `Table_4_step1.m`: Functions for denoising on the Urban dataset.
+* `Table_4_step2.py`: Functions for classification on the denoised Urban dataset.
 * `datasets/`: Folder containing the synthetic and real-world datasets used in the experiments.
   
 ## Usage
-1. **Setup**: Download the code and datasets from the repository.
-2. **Run the main function**: Execute `main.m` to run the denoising experiment on the synthetic and real-world datasets. You can modify the parameters in the main function to suit your needs.
-3. **Visualize results**: The denoised images and corresponding metrics will be saved in the `results/` folder.
+1. **Data Download**: Download the datasets from the provided links and put them in the  `data/` folder.
+2. **Experiments on simulated datasets**: Run `Table2_3_Fig5_6_PRISMA.m`.
+3. **Experiments on real-world datasets**: Run `Fig7_8_XG3.m`.
+4. **Visualize results**: The denoised images and corresponding metrics will be saved in the `results/` folder.
 
 ## Dependencies
 * MATLAB
 
-
-
 ## Citation
 If you use this code in your research, please cite the corresponding paper:
 ```
-@article{BALMF,
+@article{PWRCTV,
   author       = {Shuang Xu and
                   Qiao Ke and
                   Jiangjun Peng and
