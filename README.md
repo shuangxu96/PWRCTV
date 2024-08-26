@@ -1,5 +1,7 @@
 # Hyperspectral Pan-denoising by PWRCTV
 
+Pan-denoising: Guided Hyperspectral Image Denoising via Weighted Represent Coefficient Total Variation. IEEE Trans. Geosci. Remote. Sens.
+
 [Shuang Xu](https://shuangxu96.github.io/), [Qiao Ke](https://teacher.nwpu.edu.cn/qiaoke.html), [Jiangjun Peng](https://teacher.nwpu.edu.cn/pengjj), [Xiangyong Cao](https://gr.xjtu.edu.cn/en/web/caoxiangyong), [Zixiang Zhao](https://zhaozixiang1228.github.io/)
 
 Northwestern Polytechnical University, and Xi'an Jiaotong University
