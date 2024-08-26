@@ -44,6 +44,11 @@ where $\mathscr{E}\left( \mathcal{X},\mathbf{P} \right)$ characterizes the exter
 ## Dependencies
 * MATLAB
 
+## Our other works
+- **HSI denoising**: [BALMF](https://github.com/shuangxu96/BALMF)(TGRS'22), [STDTV](https://github.com/shuangxu96/STDTV), [RCTV](https://github.com/andrew-pengjj/rctv)(TGRS'22)
+- **Guided RGB image denoising**: [MN](https://github.com/shuangxu96/MN-A-model-driven-network-for-guided-image-denoising)(Inf Fus'22)
+- **Pan-sharpening**: [GPPNN](https://github.com/shuangxu96/GPPNN)(CVPR21)
+
 ## Citation
 If you use this code in your research, please cite the corresponding paper:
 ```
@@ -61,6 +66,8 @@ If you use this code in your research, please cite the corresponding paper:
   doi          = {https://doi.org/10.1109/TGRS.2024.3450888},
 }
 ```
+
+
 
 ## Contact
 If you have any questions or need further assistance, please contact Shuang Xu at xs@nwpu.edu.cn
