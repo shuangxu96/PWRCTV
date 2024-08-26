@@ -30,6 +30,7 @@ where $\mathscr{E}\left( \mathcal{X},\mathbf{P} \right)$ characterizes the exter
 * `Fig7_8_XG3.m`: Functions for evaluating the denoising performance on Beijing and Yulin datasets to reproduce Figs. 7-8 of the manuscript.
 * `Table_4_step1.m`: Functions for denoising on the Urban dataset.
 * `Table_4_step2.py`: Functions for classification on the denoised Urban dataset.
+* `Table5_Fig10.m`: Functions for hyperspectral pan-sharpening on the Milan dataset.
 * `datasets/`: Dataset download links.
   
 ## Usage
@@ -37,7 +38,8 @@ where $\mathscr{E}\left( \mathcal{X},\mathbf{P} \right)$ characterizes the exter
 2. **Experiments on simulated datasets**: Run `Table2_3_Fig5_6_PRISMA.m`.
 3. **Experiments on real-world datasets**: Run `Fig7_8_XG3.m`.
 4. **Application on HSI classification**: Run `Table_4_step1.m` and `Table_4_step2.py`.
-5. **Visualize results**: The denoised images and corresponding metrics will be saved in the `results/` folder.
+5. **Application on HSI pan-sharpening**: Run `Table5_Fig10.m`.
+6. **Visualize results**: The denoised images and corresponding metrics will be saved in the `results/` folder.
 
 ## Dependencies
 * MATLAB
