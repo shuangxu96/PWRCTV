@@ -61,3 +61,8 @@ If you use this code in your research, please cite the corresponding paper:
 
 ## Contact
 If you have any questions or need further assistance, please contact Shuang Xu at xs@nwpu.edu.cn
+
+## Acknowledgement
+The codes are based on [RCTV](https://github.com/andrew-pengjj/rctv). Thanks for their awesome works. 
+
+
