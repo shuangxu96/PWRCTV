@@ -1,4 +1,13 @@
 # Hyperspectral Pan-denoising by PWRCTV
+
+[Shuang Xu](https://shuangxu96.github.io/), [Qiao Ke](https://teacher.nwpu.edu.cn/qiaoke.html), [Jiangjun Peng](https://teacher.nwpu.edu.cn/pengjj), [Xiangyong Cao](https://gr.xjtu.edu.cn/en/web/caoxiangyong), [Zixiang Zhao](https://zhaozixiang1228.github.io/)
+
+Northwestern Polytechnical University, and Xi'an Jiaotong University
+
+-------------------------------------------
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2407.06064)
+[![Free](https://img.shields.io/badge/free_for_non_commercial_use-brightgreen)](#-license)
+
 This repository contains the MATLAB code for the paper "Pan-denoising: Guided Hyperspectral Image Denoising via Weighted Represent Coefficient Total Variation". The code implements the proposed PWRCTV method for hyperspectral image denoising using panchromatic image guidance.
 
 ## Pan-denoising
