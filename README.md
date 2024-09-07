@@ -63,7 +63,7 @@ If you use this code in your research, please cite the corresponding paper:
   title        = {Pan-denoising: Guided Hyperspectral Image Denoising via Weighted Represent Coefficient Total Variation},
   journal      = {{IEEE} Trans. Geosci. Remote. Sens.},
   volume       = {62},
-  pages        = {1--14},
+  pages        = {Atr. no. 5528714},
   year         = {2024},
   doi          = {https://doi.org/10.1109/TGRS.2024.3450888},
 }
